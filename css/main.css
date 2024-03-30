@@ -1,156 +1,26 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body { 
-    border-radius:30;
-    background-color:gray;
-    text-align:center;
-
-}
-
-a {
-    color: red;
-    font-size:xx-large;
-}
-div {
-    background-color: #fff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 500px;
-
-}
-nav. {
-    background-color: red;
-    display: flex;
-    align-items: left;
-    justify-content: space-between;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 800px;
-}
-a {`
-    background-color: black;
-    
-
-
-}
-img {
-    border: 1px solid #ddd;
-    border-radius: 60px;
-    padding: 50px;
-    width: 500px;
-}
 h1 {
-    border: 7px solid black;
-    padding: 50px;
-    border-radius: 60px;
-    font-size: 100px;
-
-
-}
-h2 {
-    border: 7px solid black;
-    padding: 50px;
-    border-radius: 30px;
-    font-size: 60px; 
-}
-h5 {
-    background-color:#fff;
-    font-size: 50px;
-}
-li {
-    font-size:50px;
-}
-@import url('http://font.googleapis.com./css?');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
 }
 
-button {
-    position: relative;
-    height: 60px;
-    width: 200px;
-    margin:0 35px;
-    border-radius: 50px;
-    border: none;
-    outline: none;
-    background: #111;
-    color: #fff;
-    font-size: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    cursor: pointer;
-
-
-    
+ul {
+    color: blue;
+    list-style: none;
+    display: flex;
 }
-button:first-child:hover {
-    background: linear-gradient(90deg,#03a9fa, #f441a5, #ffeb3b, #03a9f4);
-    background-size: 400px;
 
-
-
+p {
+    color: green;
 }
-button:last-child:hover {
-    background: linear-gradient(90deg,#fa7199, #f5ce62, #e43603, #fa7199);
-    background-size: 400px;
-    
 
-
+footer {
+    color: indigo;
 }
-button:first-child::before
-button:last-child::before {
-    content: "";
-    position: absolute;
-    background: inherit;
-    top: -5px;
-    right: -5%;
-    bottom: -5%;
-    left: -5px;
-    border-radius: 50px;
-    filter: blur(20px);
-    opacity: 0;
-    transition: opacity 0.5;
 
-
+.firstcard {
+    color: blue;
 }
-button:first-child::before:hover::before,
-button:last-child:Hover:before  {
-    opacity: 1;
-    z-index: -1;
-
-
-}
-button:hover {
-    z-index: 1;
-    animation: glow 8s linear infinite;
-
+.secondcard {
+    color: crimson;
 }
 
 
