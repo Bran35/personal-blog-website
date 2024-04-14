@@ -63,4 +63,6 @@ li {
 }
 
 
-    
+    @media (min-width:751) {...}
+    @media (max-width:750) {...}
+    @media  only screen and (max-with: 750px) {...}
